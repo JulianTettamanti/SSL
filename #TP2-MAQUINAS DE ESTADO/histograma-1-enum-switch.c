@@ -11,8 +11,7 @@ int main (){
         int c=0;
        
         while ( c = getchar() != EOF ){
-            switch (state)
-            {
+            switch (state){
             case OUT:
                 switch (c) //Si esta en OUT y recibe un caracter:
                 {
@@ -27,19 +26,7 @@ int main (){
             case IN:
             }
                   
-                }
-
-
-
-
-
-
+            }
         }
-        
     }
-
-
-
-
-
 }
